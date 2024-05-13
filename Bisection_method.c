@@ -16,7 +16,12 @@ int main(){
     scanf("%f",&x1);
    }while (F(x1)>0);
    
-
+   do
+   {
+    printf("X2 is = ");
+    scanf("%f",&x2);
+   } while (F(x2)<0);
+   
 
 
 }
