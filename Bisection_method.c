@@ -47,7 +47,7 @@ do
 
 } while (fabs(f0)>E);
 
-
+printf("\n The root is = %f",x0);
 
 getch();
 
