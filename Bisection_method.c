@@ -9,7 +9,13 @@
 
 int main(){
 
+   float x0,x1,x2,f1,f2,f0;
 
+   do{
+    printf("X1 is = ");
+    scanf("%f",&x1);
+   }while (F(x1)>0);
+   
 
 
 
