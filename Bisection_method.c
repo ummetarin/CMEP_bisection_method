@@ -5,7 +5,7 @@
 // define error like decimal
 #define E 0.001
 // define a function
-#define F(x) ((x*x*x)-5*x+3)
+#define F(x) ((x*x*x)-2*x*x-4)
 
 int main(){
 
@@ -22,6 +22,35 @@ int main(){
     scanf("%f",&x2);
    } while (F(x2)<0);
    
+   printf("\n----------------------\n");
+   printf("\n x1\x2\f0\f1\f2");
+   printf("\n-------------------------\n");
 
+do
+{
+  f1=F(x1);
+  f2=F(x2);
+
+  x0=(x1+x2)/2;
+
+  f0=F(x0);
+
+  printf("\n%f%f%f%f%f%f",x0,x1,x2,f0,f1,f2);
+
+  if(f1*f0<0){
+    x2=x0;
+  }
+  else{
+    x1=x0;
+  }
+
+
+} while (fabs(f0)>E);
+
+
+
+getch();
+
+   
 
 }
