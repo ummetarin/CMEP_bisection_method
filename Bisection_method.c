@@ -18,9 +18,9 @@ int main() {
         scanf("%f", &x2);
     } while (F(x2) > 0);
 
-    printf("\n----------------------\n");
-    printf("\n x1\t x2\t f0\t f1\t f2\n");
-    printf("-------------------------\n");
+    // printf("\n----------------------\n");
+    // printf("\n x1\t x2\t f0\t f1\t f2\n");
+    // printf("-------------------------\n");
 
     do {
         f1 = F(x1);
