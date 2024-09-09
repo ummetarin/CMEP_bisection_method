@@ -35,4 +35,9 @@ else{
 } while (fabs(f0)>E);
 
 printf("root is =%f",x0);
+
+
+
+
+
 }
